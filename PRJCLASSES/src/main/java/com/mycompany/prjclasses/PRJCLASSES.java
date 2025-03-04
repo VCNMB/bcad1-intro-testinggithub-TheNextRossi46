@@ -12,6 +12,6 @@ public class PRJCLASSES {
 
     public static void main(String[] args) {
      
-        System.out.println("STOPPPPPP FIGHTINGGGGGG");
+        System.out.println("HOP HOP SINNEKOP");
     }
 }
