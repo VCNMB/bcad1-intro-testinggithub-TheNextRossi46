@@ -16,7 +16,7 @@ public class BooleanPROG {
         //===========================================================================================================================================
          double dblVat = 0.15;
         
-       String strName = "Kian";
+       String strName = "Lita";
                 strName = "Micheal";
                 
                 dblVat = 0.15;
