@@ -12,6 +12,10 @@ public class PRJCLASSES {
 
     public static void main(String[] args) {
      
-        System.out.println("HOP  SINNEKOP");
+        newClass nc = new newClass();
+        nc.helloClass();
+        
+        System.err.println(nc.strSecondClassVar) ;
+        
     }
 }
