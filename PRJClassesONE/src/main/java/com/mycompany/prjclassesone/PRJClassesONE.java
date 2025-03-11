@@ -19,7 +19,7 @@ public class PRJClassesONE {
     public static void main(String[] args) 
     {
        String strName = JOptionPane.showInputDialog(null, "Please enter the student name");
-       String strCource = JOptionPane.showInputDialog(null, "Please enter student cource");
+       String strCource = JOptionPane.showInputDialog(null, "Please enter student course");
        double dblAvg = Double.parseDouble(JOptionPane.showInputDialog(null, "Please enter student average resualts"));
        
        s.setName(strName);
