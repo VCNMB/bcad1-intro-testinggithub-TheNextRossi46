@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
  */
 public class PRJClassesONE {
 
-    private static STUDENTS s = new STUDENTS();
+    private static STUDENTS student = new STUDENTS();
     
     public static void main(String[] args) 
     {
@@ -22,16 +22,18 @@ public class PRJClassesONE {
        String strCource = JOptionPane.showInputDialog(null, "Please enter student course");
        double dblAvg = Double.parseDouble(JOptionPane.showInputDialog(null, "Please enter student average resualts"));
        
-       s.setName(strName);
-       s.setCourse(strCource);
-       s.setAverage(dblAvg);
+       student.setName(strName);
+       student.setCourse(strCource);
+       student.setAverage(dblAvg);
        print();
         
     }
     public static void print()
     {
-        String strDiplay = "The updated student average resualts are: \n"  + "STUDENT:  " + s.getName() 
-                                                                  + "\n" + "COURCE: " + s.getCourse() + "\n" + "AVERAGE:" + s.getAverage() + "%";
+        String strDisplay = "The updated student average resualts are: \n"  + "STUDENT:  " + student.getName() 
+                                                                  + "\n" + "COURCE: " + student.getCourse() + "\n" + "AVERAGE:" + student.getAverage() + "%";
+        
+        JOptionPane.showMessageDialog(null,strDisplay);
     
     }
 }
